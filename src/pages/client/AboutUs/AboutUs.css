@@ -1,0 +1,267 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  .nav-item  a{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    display: inline-block;
+  }
+   .nav-item a:hover{
+    transform: scale(1.1) translateY(-3px);
+    text-decoration: underline;
+   }
+  header{
+    background-color: #c8190ccf;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: relative;
+    top: 0%;
+    z-index: 2;
+  }
+  .logo {
+    width: 25%;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 50px 5px;
+    transform: translateY(-10px); /* Ensure to add 'px' for proper translation */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  .logo:hover {
+    transform: translateY(-10px) scaleX(-1); /* Flip the logo horizontally on hover */
+  }
+  .navigation{
+    background-color: transparent;
+    right: 30px;
+    margin-top: 20px;
+  }
+  .navbar {
+    background-color: transparent;
+    color: white;
+  }
+  .navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+  }
+  .icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+  }
+  .dropdown-menu {
+    background-color: white;
+    border: 3px solid #c8190ccf;
+  }
+  .dropdown-menu .dropdown-item {
+    color: #c8190ccf;
+    font-weight: bold;
+  }
+  footer {
+    background-color: #c8190ccf;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+    
+
+    
+  }
+   
+  /*.heading{
+    background-size: auto 100%;
+    height: 50vh;
+    background-size: cover;
+    background-image: linear-gradient(transparent, #1d1c1b9a), url(./WhatsApp\ Image\ 2025-01-08\ at\ 1.19.39\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }*/
+
+  
+
+  .heading {
+    height: 50vh; /* Takes 50% of the viewport height */
+    width: 100%; /* Full width */
+    background-size: 100% 100%; /* Ensures the image stretches to fill both dimensions */
+    /*background-size: contain;*/
+    background-image: linear-gradient(transparent, #1d1c1b9a), url('https://media.licdn.com/dms/image/v2/D5610AQF1NbjRYqRVvg/image-shrink_800/image-shrink_800/0/1733762100325?e=2147483647&v=beta&t=JOSkVBG54RsXfirGB0ZmquWUhl8x-Rj6mJS-0-ncxnI');
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-position: center; /* Centers the image */
+    overflow: hidden; /* Hides any overflow */
+}
+
+.heading h1, .heading p {
+  /*max-width: 100%; /* Ensures the width does not exceed the container */
+  word-break: break-word; /* Breaks long words to avoid overflow */
+  
+  text-align: center; /* Optional: center-aligns the text */
+  overflow-wrap: anywhere;
+}
+.mission-vision{
+
+  background-color: rgb(237, 223, 223);
+
+}
+.mission-vision img{
+  width: 300px;
+  height: 250px;
+  background-repeat: no-repeat; /* Prevents repetition */
+  background-position: center; /* Centers the image */
+  overflow: hidden;
+  border-radius: 5px 50px;
+  background-size: 100% 100%;
+  margin: 20px;
+}
+.mission-vision1{
+  margin-left: 10%;
+}
+.mission-vision1 img{
+  width: 300px;
+  height: 250px;
+  background-repeat: no-repeat; /* Prevents repetition */
+  background-position: center; /* Centers the image */
+  overflow: hidden;
+  border-radius: 50px 5px;
+  background-size: 100% 100%;
+  margin: 20px;
+}
+.mission-vision h2{
+  font-weight: bold;
+}
+.feedback{
+  background-color: #eddfdf;
+  text-align: justify;
+}
+.feedback h2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #8B0000;
+}
+/*.feedback img{
+    width: 55%;
+    height: 70%;
+    margin: 0 auto;
+    display: block;
+    /*border-radius: 5px 50px;*/
+    /*border: 4px solid #8B0000;
+}
+.feedback p{
+  /* word-break: break-word; Breaks long words to avoid overflow */
+  /*text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+ 
+  }*/
+  .card{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #eddfdf;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px black;
+    cursor: pointer;
+  }
+  .review{
+    margin: 20px;
+    display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  margin-left: 3.5rem;
+  align-content: center;
+  gap: 20px;
+  }
+  .card img{
+    max-width: 150px;
+    border-radius: 100%;
+    border: 4px solid #8B0000;
+  }
+  .content{
+    display: flex;
+    gap: 1rem;
+  }
+  .content span i{
+    font-size: 2rem;
+    color: #8B0000;
+  }
+  .details p{
+    font-style: italic;
+    color: black;
+    display: flex;
+  justify-content: center;  
+  }
+
+/*.mission-vision1{
+  background-color: rgb(207, 70, 70);
+}*/
+
+  
+
+  /* Header */
+  /*.hero {
+    background: linear-gradient(rgba(200, 25, 12, 0.8), rgba(200, 25, 12, 0.9)), url('blood-donation.jpg') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Sections */
+  /*section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  h2 {
+    color: #c8190c;
+    border-bottom: 2px solid #c8190c;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  
+  .values {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .values li {
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* How It Works */
+  /*.how-it-works ol {
+    list-style-position: inside;
+  }
+  
+  
+  
+  /* Footer */
+ /* footer {
+    background: #c8190c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }*/
+  

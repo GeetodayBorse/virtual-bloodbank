@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .complaint-actions button.btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .transaction-heading {
+    background-color: #c8190ccf;
+    height: 100px;
+  }
+  
+  /* Search Transaction */
+  .search-button {
+    width: 5%;
+    margin-top: 1%;
+    padding: 5px;
+  }
+  .client-search {
+    margin-top: 1%;
+  }
+  .client-search input {
+    margin-top: 1%;
+    padding: 5px;
+    border: 2px solid red;
+  }
+  
+  .table {
+    border-color: red;
+  }
+  .table thead {
+    background-color: #c8190ccf;
+    color: #ffff;
+    text-align: center;
+    position: sticky;
+  }
+  
+  .table tbody {
+    text-align: center;
+  }
+  

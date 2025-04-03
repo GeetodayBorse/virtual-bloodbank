@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles (Fixed at the Top) */
+  .header {
+    width: 100%;
+    background-color: #c8190ccf;
+    height: 100px;
+  }
+  
+  .logo {
+    width: 20%;
+    margin-left: 15px;
+    display: flex;
+  
+    margin-top: 20px;
+    border-radius: 50px 5px;
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+  }
+  .logo:hover {
+    transform: translateY(-10px) scaleX(-1); /* Flip the logo horizontally on hover */
+  }
+  
+  /* Navigation Styles */
+  .nav li {
+    cursor: pointer;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    display: inline-block;
+  }
+  
+  /* .nav li a:hover {
+      transform: scale(1.1) translateY(-3px);
+      text-decoration: underline;
+    } */
+  .nav li a:hover {
+    transform: scale(1.1) translateY(-3px);
+    text-decoration: underline;
+    border-radius: 10px;
+  }
+  /* .complaint-actions button.btn-danger:hover {
+      background-color: #c82333;
+    } */
+  
+  /* client search */
+  .search-button {
+    width: 5%;
+    margin-top: 1%;
+    padding: 5px;
+  }
+  .client-search {
+    margin-top: 1%;
+    display: flex;
+  }
+  .client-search input {
+    margin-top: 1%;
+    padding: 5px;
+    border: 2px solid red;
+  }
+  /* Table Container */
+  .table-container {
+    width: 100%;
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid red;
+    /*margin-top: 10px; /* Space below the header */
+  }
+  
+  /* Table Styles */
+  .table {
+    border-collapse: collapse;
+  }
+  
+  .table thead {
+    background-color: #c8190ccf;
+    color: white;
+    text-align: center;
+  }
+  
+  .table tbody {
+    text-align: center;
+    overflow-y: auto; /* Enable tbody scrolling */
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid red;
+    padding: 8px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #c8190ccf;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  

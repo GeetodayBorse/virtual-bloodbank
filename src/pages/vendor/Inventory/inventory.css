@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  section.vendors-details {
+    margin-top: 20px;
+  }
+  
+  .complaint-actions button.btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .table thead {
+    background-color: #c8190ccf;
+    color: #ffff;
+    text-align: center;
+  }
+  
+  .table {
+    border: red;
+  }
+  
+  .table tbody {
+    text-align: center;
+  }
+  
+  td .add {
+    background-color: rgb(69, 196, 69);
+    border: green;
+  }
+  

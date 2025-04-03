@@ -1,0 +1,69 @@
+.container{
+    border: 4px solid #c8190ccf;
+    border-radius: 10px;
+  }
+    
+  .image{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+  .card-body, .list-group li{
+    border: 2px solid #c8190ccf;
+    border-radius: 10px;
+  }
+  
+  
+    /* Profile Header Styles */
+    section.text-center img {
+      border: 4px solid #c8190ccf;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+  
+    }
+    
+    section.text-center h2 {
+      /*font-size: 1.8rem;*/
+      margin: 10px;
+    }
+    
+    section.text-center p {
+      color: #666;
+    }
+    
+    /* Card Styles */
+    .card {
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h5 {
+      color: black;
+    }
+    
+    /* Table Styles */
+    table {
+      background-color: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    
+    .table-striped>tbody>tr:nth-child(odd)>td, 
+    .table-striped>tbody>tr:nth-child(odd)>th {
+       background-color: #c8190ccf; 
+       color: white;
+     }
+  
+    table th, table td {
+      padding: 12px 15px;
+      text-align: left;
+      color: #555;
+    }
+    
+    table th {
+      font-weight: bold;
+    }
+    

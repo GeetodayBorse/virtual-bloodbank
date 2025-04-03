@@ -1,0 +1,67 @@
+.form-control {
+  position: relative;
+  /* pointer-events: auto; */
+}
+
+#details{
+    border: 2px solid #c8190ccf;
+    border-radius: 10px;
+}
+.image{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.element {
+    margin: 50px;
+    position: relative;
+    box-shadow: 50px;
+    border: 4px solid #c8190ccf;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .submit{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  .reset{
+    position: absolute;
+    right: 110px;
+    bottom: 20px;
+    display: flex;
+  }
+  .OTP-generator{
+    border: 4px solid #c8190ccf;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+.otp-header{
+    text-align: center;
+}
+.otp-main{
+    text-align: center;
+}
+.otp{
+    border: 2px solid #c8190ccf;
+    border-radius: 10px;
+    columns: 5;
+    text-align: center;
+}
+.resend{
+    font-weight: bold;
+    color: #c8190ccf;
+}
+.otp-verify{
+    border-radius: 10px;
+    columns: 3;
+}
+.modal-dialog{
+  position: relative;
+  top: 0;
+  z-index: 3;
+  border: 4px solid #c8190ccf;
+  border-radius: 10px;
+}
